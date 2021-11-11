@@ -1,0 +1,15 @@
+h3 {
+    margin-left: 10px;
+}
+#projects {
+    font-size: 14pt;
+}
+p {
+    font-size:medium
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: underline !important;
+    color: rgb(80, 19, 158);
+    font-size: medium;
+}

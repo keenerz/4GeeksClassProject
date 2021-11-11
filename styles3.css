@@ -1,0 +1,53 @@
+img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+.card {
+    margin: 0 auto; /* Added */
+    margin-top: 20px;
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    border: solid 1px;
+    width: 400px;
+    overflow:hidden;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#logos {
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+a.button {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    background: #000;
+    color:white;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none !important;
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h1 {
+    padding: 10px 10px 5px 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+h3 {
+    padding: 5px 10px 5px 10px;
+    color: rgb(141, 141, 141) !important;
+}
+h4 {
+    padding: 5px 10px 5px 10px;
+}
